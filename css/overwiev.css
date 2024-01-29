@@ -55,3 +55,10 @@ td {
 .redColor{
     color: var(--secondaryColor);
 }
+
+.ticket_page{
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+}
