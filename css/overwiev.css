@@ -1,0 +1,57 @@
+.overwiev {
+  padding: 80px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid transparent;
+}
+
+th,
+td {
+  padding: 25px;
+}
+
+.first_row{
+    color: var(--primaryColor);
+    opacity: 0.7;
+}
+
+.tr__back {
+  background: #eef2f5;
+}
+
+.table__avatar-item{
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.table__avatar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.table__avatar img {
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+}
+
+.firstColor{
+    color: var(--firstColor);
+}
+
+.redColor{
+    color: var(--secondaryColor);
+}

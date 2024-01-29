@@ -1,0 +1,173 @@
+.ticked {
+  padding: 80px 0;
+}
+
+.ticket__table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.342);
+}
+
+.ticket__table,
+.ticket__row {
+  border: 2px solid rgba(0, 0, 0, 0.411);
+}
+
+th,
+td {
+  padding: 25px;
+}
+.ticket__first-row {
+  opacity: 0.7;
+}
+.thead {
+  border: 2px solid rgba(0, 0, 0, 0.322);
+}
+.thead td {
+  color: var(--primaryColor);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  opacity: 0.7;
+}
+
+caption {
+  padding: 32px;
+  color: var(--primaryColor);
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-align: left;
+}
+
+.table__row{
+  border: 2px solid rgba(0, 0, 0, 0.322);
+}
+
+.table__row:hover{
+ background: #b5bced;
+}
+
+.infos {
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.row-avatar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.row-avatar img {
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.avatar--title {
+  color: var(--primaryColor);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.avatar__desc {
+  color: gray;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.customer_name  {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name  , .date_number {
+  color: var(--primaryColor);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.custumer_date , .date__time {
+  color: gray;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.priority__btn{
+    padding: 5px 12px;
+    border-radius:8px;
+    background: red;
+    color: white;
+    border: 1px solid red;
+}
+.priority__btn:hover{
+    background: white;
+    color: red;
+}
+
+.low{
+    background: orange;
+    color: white;
+    border: 1px solid orange;
+}
+
+.low:hover{
+    color: orange;
+    background: white;
+}
+
+.normal{
+    background: rgb(12, 241, 241);
+    color: white;
+    border: 1px solid rgb(12, 241, 241);
+}
+
+.normal:hover{
+    color: rgb(12, 241, 241);
+    background: white;
+}
+
+
+
+
+
+
+.nuqta{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuqta span{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: black;
+}
+
+
